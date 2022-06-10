@@ -4,11 +4,12 @@
  */
 package entornosrecu2;
 
-public class EntornosRecu2 {
+public class EntornosRecu2{
 
-    private int numRamas; //rellena desde el ejercicio 1!!
-    private String ramaPrincipal; //rellena desde el ejercicio 1!!
-    private String ramaEvolucionada; //rellena desde el ejercicio 1!!
+    private int numRamas=3; //rellena desde el ejercicio 1!!
+    private String ramaPrincipal="main"; //rellena desde el ejercicio 1!!
+    private String ramaEvolucionada="main"; //rellena desde el ejercicio 1!!
+    private String ExplicaciónEj5="Se añaden las variables numRamas, ramaPrincipal y ramaEvolucionada y se ha movido el comentario de sitio ";
     
     public static void main(String[] args) {
         
