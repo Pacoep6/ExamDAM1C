@@ -10,6 +10,11 @@ public class Matematicas {
     private int numero;
 
     public Matematicas(int numIn) {
+        chequearNum(numIn);
+    }
+
+    /*He seleccionado el codigo, he dado a Refactor --> Introduce --> Method. Luego he seleccionado el nombre*/
+    public void chequearNum(int numIn) {
         if ((numIn > 999) || (numIn < 1)) {
             this.numero = 1;
             System.out.println("Número inválido. Se establece 1");
