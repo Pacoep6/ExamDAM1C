@@ -4,20 +4,41 @@
  */
 package entornosrecu2;
 
-
+/**
+ * @version 1.0
+ * @author Hugo
+ * @see EntornosRecu2
+ */
 public class Matematicas {
 
     private int numero;
 
+    /**
+     *
+     * @param numIn
+     */
     public Matematicas(int numIn) {
-        if ((numIn > 999) || (numIn < 1)) {
+        chequearNum(numIn);
+    }
+
+    /**
+     * Seleccionas el if else, vas a refactor, introduce Method
+     * Insertas el nombre y clicas en refactor.
+     * @param num 
+     */
+    private void chequearNum(int num) {
+        if ((num > 999) || (num < 1)) {
             this.numero = 1;
             System.out.println("Número inválido. Se establece 1");
         } else {
-            this.numero = numIn;
+            this.numero = num;
         }
     }
 
+    /**
+     *
+     * @return
+     */
     public boolean capicua() {
         if (this.numero < 10) {
             return true;
@@ -39,6 +60,10 @@ public class Matematicas {
 
     }
     
+    /**
+     *
+     * @return
+     */
     public double factorial() {
         double result = 1;
         for (int i = 1; i < this.numero; i++) {
@@ -47,14 +72,27 @@ public class Matematicas {
         return result;
     }
 
+    /**
+     *
+     * @param num2
+     * @return
+     */
     public int multiplicar(int num2){
         return (this.numero * num2);
     }
 
+    /**
+     *
+     * @return
+     */
     public int getNumero() {
         return numero;
     }
 
+    /**
+     *
+     * @param numero
+     */
     public void setNumero(int numero) {
         this.numero = numero;
     }

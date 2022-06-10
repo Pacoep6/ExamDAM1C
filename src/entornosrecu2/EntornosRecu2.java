@@ -9,6 +9,7 @@ public class EntornosRecu2 {
     private int numRamas = 3; //rellena desde el ejercicio 1!!
     private String ramaPrincipal = "main"; //rellena desde el ejercicio 1!!
     private String ramaEvolucionada = "ramaPaco"; //rellena desde el ejercicio 1!!
+    private String explicacionEJ6 = "System.out.println(calc1.multiplicar(3));";
     
     public static void main(String[] args) {
         
