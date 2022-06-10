@@ -4,25 +4,31 @@
  */
 package entornosrecu2;
 
+/**
+ * @author Ian Martin Bayo
+ * @version vI 1.0
+ */
 public class EntornosRecu2 {
 
-    private int numRamas; //rellena desde el ejercicio 1!!
-    private String ramaPrincipal; //rellena desde el ejercicio 1!!
-    private String ramaEvolucionada; //rellena desde el ejercicio 1!!
-    
+    private int numRamas = 3; //rellena desde el ejercicio 1!!
+    private String ramaPrincipal = "main"; //rellena desde el ejercicio 1!!
+    private String ramaEvolucionada = "ramaPaco"; //rellena desde el ejercicio 1!!
+    private String explicaciónEJ6 = "System.out.println(calc1.multiplicar(3));";
+
+    /**
+     * Ejecucion de la aplicacion
+     *
+     * @param args parametros de la clase String
+     *
+     */
     public static void main(String[] args) {
-        
+
         //aquí sólo hacemos ejemplos para ver que funciona bien la clase Matemáticas
-        
         Matematicas calc1 = new Matematicas(11);//ejemplo
         System.out.println(calc1.capicua()); //ejemplo
         System.out.println(calc1.multiplicar(3));
         System.out.println(calc1.factorial());
-        
-        
-           
-        
-        
+
     }
-    
+
 }
