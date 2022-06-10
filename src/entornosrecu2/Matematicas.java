@@ -8,7 +8,7 @@ package entornosrecu2;
  * 
  * @author Ronal Arrayaza Gonzales
  * @version VExamen3
- * @see Vea Tambien la clase principal <a href="EntornosRecu2.html">Clase Principal</a>
+ * @see <a href="EntornosRecu2.html">Vea Tambien la clase principal Clase Principal</a>
  */
 public class Matematicas {
     /**
