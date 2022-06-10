@@ -4,11 +4,17 @@
  */
 package entornosrecu2;
 
+/**
+ * @version v1
+ * @author admin
+ */
 public class EntornosRecu2 {
 
     private int numRamas=3; //rellena desde el ejercicio 1!!
     private String ramaPrincipal="main"; //rellena desde el ejercicio 1!!
     private String ramaEvolucionada="ramaPaco"; //rellena desde el ejercicio 1!!
+    private String explicacionEJ5="Captura adjunta al ";
+    private String explicacionEJ16="System.out.println(calc1.multiplicar(3));";
     
     public static void main(String[] args) {
         
